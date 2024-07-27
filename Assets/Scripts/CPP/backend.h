@@ -4,7 +4,7 @@
 #define DLL_EXPORT __declspec(dllexport)
 
 extern "C" {
-    int DLL_EXPORT ReturnFunction();
+    DLL_EXPORT const char* GetPCSpecs();
 }
 
 #endif // BACKEND_H
